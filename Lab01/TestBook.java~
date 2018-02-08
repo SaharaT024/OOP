@@ -1,4 +1,4 @@
-import java.io
+import java.io.*;
   
 public class TestBook
 { 
@@ -9,7 +9,7 @@ public class TestBook
     mybook1.settitle("OOP");
     mybook1.setnumberofpage(100);
     mybook1.setauthorName("John Cena");
-    System.out.printIn("Book1 Title is "+mybook1.gettitle() +
+    System.out.println("Book1 Title is "+mybook1.gettitle() +
                        ",Number of Page is "+mybook1.getnumberofpage() +
                        ",Author Name is "+mybook1.getauthorName());
   }
